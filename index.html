@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Real Zelda</title>
+    </head>
+    <body onload="console.log('Page Loaded')">
+        <div id="start" class="screen" style="display:block">
+            <button onclick="startGame()">Start the Legend</button>
+        </div>
+        <div id="canvasdiv">
+            <canvas id="game-layer" style="display:none"></canvas>  
+            <canvas id="dialogue-layer" style="display:none"></canvas>       
+            <canvas id="fade-layer"></canvas>
+        </div>
+    </body>
+    <script src="data/collisions1.js"></script>
+    <script src="data/collisions5.js"></script>
+    <script src="data/collisions6.js"></script>
+    <script src="data/collisions7.js"></script>
+    <script src="data/bosscollisions.js"></script>
+    <script src="data/chest5.js"></script>
+    <script src="data/chest6.js"></script>
+    <script src="data/chest7.js"></script>
+    <script src="images.js"></script>
+    <script src="sound.js"></script>
+    <script src="canvas.js"></script>
+    <script src="class.js"></script>
+    <script src="misc.js"></script>
+    <script src="zelda.js"></script>
+    <script src="enemies.js"></script>
+    <script src="dialogue.js"></script>
+    <script src="functions.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</html>

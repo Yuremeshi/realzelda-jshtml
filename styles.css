@@ -1,0 +1,40 @@
+canvas {
+    border: 4px white;
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  font-size: 1.7em;
+}
+
+.screen {
+  padding: 20px;
+  border: 4px white;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+}
+
+#game-layer{
+  z-index: 0;
+  background-color: gray;
+}
+
+#fade-layer{
+  z-index: 1;
+}
+
+#dialogue-layer{
+  z-index: 2;
+}
