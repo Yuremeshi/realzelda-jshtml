@@ -80,7 +80,6 @@ And Zelda will move -movespeed on the y axis
 I've copy pasted this function multiple times because the boundaries of each level are slightly different
 An optimization I could make is using variables so that the function could work differently depending on the level,
 But I've decided to leave it as is in this case heh
-Credit to Chris Courses for the basis of this movement method
 */
 function movement1() {
     let walking = true

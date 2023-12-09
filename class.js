@@ -55,7 +55,6 @@ class Sprite {
     EX: If the width of the entire image is 8 and there are 4 columns the this.width will be equal to 2
     If this.frameCount.val is equal to two the crop will start at 4 and end at 6
     The image shown will be whatever is between the x values of 4 and 6
-    Thanks to Chris Courses and various other youtube videos for this method
     */
     draw() {
         c.drawImage(
