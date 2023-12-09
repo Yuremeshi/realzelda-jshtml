@@ -4,3 +4,7 @@
 
 #### Scratch Link: https://scratch.mit.edu/projects/550707401/
 #### Github Link: https://github.com/Yuremeshi/realzelda-jshtml.git
+
+
+
+##### By the way I actually finished this project 10 months ago, but I didn't want to make the video so I procrastinated until now lol...
